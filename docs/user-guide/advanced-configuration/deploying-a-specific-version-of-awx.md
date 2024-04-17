@@ -9,7 +9,7 @@ There are a few variables that are customizable for awx the image management.
 | image_pull_policy             | The pull policy to adopt  | IfNotPresent                               |
 | image_pull_secrets            | The pull secrets to use   | None                                       |
 | ee_images                     | A list of EEs to register | quay.io/ansible/awx-ee:DEFAULT_AWX_VERSION |
-| redis_image                   | Path of the image to pull | docker.io/redis                            |
+| redis_image                   | Path of the image to pull | 044063822467.dkr.ecr.ap-southeast-1.amazonaws.com/awx:redis
 | redis_image_version           | Image version to pull     | latest                                     |
 | control_plane_ee_image        | Image version to pull     | quay.io/ansible/awx-ee:DEFAULT_AWX_VERSION |
 | init_container_image          | Path of the image to pull | quay.io/ansible/awx-ee                     |

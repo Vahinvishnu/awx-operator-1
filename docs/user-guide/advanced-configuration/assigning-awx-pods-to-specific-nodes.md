@@ -11,7 +11,7 @@ example, specifying `task_tolerations` will allow the AWX task pod to be schedul
 
 | Name                             | Description                              | Default                          |
 | -------------------------------- | ---------------------------------------- | -------------------------------- |
-| postgres_image                   | Path of the image to pull                | quay.io/sclorg/postgresql-15-c9s |
+| postgres_image                   | Path of the image to pull                | 044063822467.dkr.ecr.ap-southeast-1.amazonaws.com/awx:postgresql-15-c9s-15-c9s |
 | postgres_image_version           | Image version to pull                    | latest                           |
 | node_selector                    | AWX pods' nodeSelector                   | ''                               |
 | web_node_selector                | AWX web pods' nodeSelector               | ''                               |

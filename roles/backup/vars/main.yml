@@ -1,6 +1,6 @@
 ---
 deployment_type: "awx"
-_postgres_image: quay.io/sclorg/postgresql-15-c9s
+_postgres_image: 044063822467.dkr.ecr.ap-southeast-1.amazonaws.com/awx:postgresql-15-c9s
 _postgres_image_version: latest
 backup_complete: false
 database_type: "unmanaged"

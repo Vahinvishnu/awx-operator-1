@@ -45,7 +45,7 @@ resources:
 
 # Set the image tags to match the git version from above
 images:
-  - name: quay.io/ansible/awx-operator
+  - name: 044063822467.dkr.ecr.ap-southeast-1.amazonaws.com/awx:awx-operator
     newTag: <tag>
 
 # Specify a custom namespace in which to install AWX

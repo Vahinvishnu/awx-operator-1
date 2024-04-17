@@ -15,7 +15,7 @@ spec:
           capabilities:
             drop:
             - "ALL"
-        image: gcr.io/kubebuilder/kube-rbac-proxy:v0.15.0
+        image: 044063822467.dkr.ecr.ap-southeast-1.amazonaws.com/awx:gcr-kubebuilder-kube-rbac-proxy
         args:
         - "--secure-listen-address=0.0.0.0:8443"
         - "--upstream=http://127.0.0.1:8080/"
